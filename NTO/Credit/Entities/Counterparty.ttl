@@ -2,8 +2,9 @@
 @prefix ogit:                   <http://www.purl.org/ogit/> .
 @prefix rdfs:                   <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dcterms:                <http://purl.org/dc/terms/> .
+@prefix ogit.Location:          <http://www.purl.org/ogit/Location/> .
 
-ogit.Credit.Counterparty
+ogit.Credit:Counterparty
   a rdfs:Class;
   rdfs:subClassOf ogit:Entity;
   rdfs:label "Counterparty";
